@@ -1,0 +1,56 @@
+This Document provides below information about FlyinTravel Software System and provides steps to use it:
+
+1.Overview of FlyinTravel Softwate System
+2.Steps to use FlyinTravel Software System
+
+   ---------------------------------------Overview-------------------------------------
+
+FlyinTravel Software System consists of below classes. System is formed by associating all these classes.
+
+1.FlyinTravel ---------------> The Main Class which contains main method and has instances of databases for Flights,Members and bookings
+
+2.Traveler ------------------> The Class which abstracts Traveler objects
+			       It Contains information related to traveler such as Name,Age,Location,Gender and Email. And provides two main
+			       methods SearchFlights and BookFlights
+	
+3.Member---------------------> The Class which abstracts Member objects( this is extend from Traveler class)
+			       It Contains informations related to Member such as Username and Password.
+		               It also  Provides methods such as Login and logout.
+
+4.Account--------------------> The Class which abstracts Account objects.
+			       It contains information related to Accounts such as Account ID.
+                               It also provides methods such Signup,Delete and Modify.
+
+5.Admin----------------------> The Class which abstracts Admin objects
+                               It contains information related to Admin such as username and Password
+                               It also provides methods such as UpdateFlights and DeleteFlights
+
+6.Flight---------------------> The Class which abstracts Flight Objects
+			       It contains information related to Flight such as FlightNo,Source,Destination,Capacity
+			       
+7.Bookings ------------------> The Class which abstracts Bookings Objects
+                               It contains information related to Bookings such as BookingID,SeatNo,Baggage,Price
+			       It provides methods to View booking, Cancel Booking and Modify Booking
+
+8.Search---------------------> The Association class which abstracts common attributes between Traveler and Flight objects
+			       The attributes are No of Passengers and ISoneway
+
+9.Payment--------------------> The Class which abstracts payments objects.
+		    	       This is also the parent class for Memberpoints and Credit_Debit_Interac child classes.
+
+10.Credit_Debitcard_Interac--> The Class which abstracts Credit_Debitcard_Interac objects
+			       It contains information related to Credit_Debit_Interac such as credit/debit card number details 
+			       It provides a method to create transaction
+
+11.Member_Points ------------> The Class which abstracts Member points objects
+			       It contains information related to Member points such as Points and methods such as getpoints and usepoints
+
+12.Bank_System---------------> The Class which abstracts Bank System objects
+			       It has a method to validate transaction
+
+13.read----------------------> The class which handles inputs. A wraper class to take all types of inputs such as String,Integer,Char.			
+
+
+-------------------------Steps To use FlyinTravel Software System---------------------------------------------------
+
+Refer User Manual Document

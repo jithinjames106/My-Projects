@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
+  <uml:Model xmi:id="_ot7fkOn2EeWEhMHixbg_iA" name="model">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_oyi50On2EeWEhMHixbg_iA" name="StateMachine_Account">
+      <region xmi:type="uml:Region" xmi:id="_o0L4kOn2EeWEhMHixbg_iA" name="StateMachine_Account">
+        <transition xmi:type="uml:Transition" xmi:id="_pHwYQO49EeWENO6pz67zmA" name="Login()" source="_w_KV8On2EeWEhMHixbg_iA" target="_L1pJEO49EeWENO6pz67zmA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_4hCPYO49EeWENO6pz67zmA" source="_UXIA8O5IEeW2Y6PQGm6wOg" target="_w_KV8On2EeWEhMHixbg_iA"/>
+        <transition xmi:type="uml:Transition" xmi:id="__iTSsO49EeWENO6pz67zmA" name="Delete()" source="_L1pJEO49EeWENO6pz67zmA" target="_Sjnc8O49EeWENO6pz67zmA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_GmJv8O4-EeWENO6pz67zmA" name="Logout()" source="_L1pJEO49EeWENO6pz67zmA" target="_w_KV8On2EeWEhMHixbg_iA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_cdyKkO4-EeWENO6pz67zmA" name="Session_expired" source="_L1pJEO49EeWENO6pz67zmA" target="_w_KV8On2EeWEhMHixbg_iA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_epjCEO4_EeWENO6pz67zmA" name="Modify()" source="_L1pJEO49EeWENO6pz67zmA" target="_L1pJEO49EeWENO6pz67zmA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_qb_VYO4_EeWENO6pz67zmA" source="_Sjnc8O49EeWENO6pz67zmA" target="_bw2BgO49EeWENO6pz67zmA"/>
+        <subvertex xmi:type="uml:State" xmi:id="_w_KV8On2EeWEhMHixbg_iA" name="Idle"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_UXIA8O5IEeW2Y6PQGm6wOg" name="Start"/>
+        <subvertex xmi:type="uml:State" xmi:id="_L1pJEO49EeWENO6pz67zmA" name="Active"/>
+        <subvertex xmi:type="uml:State" xmi:id="_Sjnc8O49EeWENO6pz67zmA" name="Terminate"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_bw2BgO49EeWENO6pz67zmA" name="End"/>
+      </region>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kMD6UO49EeWENO6pz67zmA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kM9SMO49EeWENO6pz67zmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_kY3AMO49EeWENO6pz67zmA" language="org.eclipse.papyrus.uml.textedit.transition.xtext.UmlTransition"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_aNvakO4-EeWENO6pz67zmA" language="org.eclipse.papyrus.uml.textedit.transition.xtext.UmlTransition"/>
+</xmi:XMI>

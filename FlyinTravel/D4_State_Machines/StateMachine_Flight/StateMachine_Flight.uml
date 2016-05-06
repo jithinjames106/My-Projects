@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VnJpgO64EeWdvOLixn7bsw" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_VnJpge64EeWdvOLixn7bsw" name="StateMachine_Flight">
+    <region xmi:type="uml:Region" xmi:id="_VnJpgu64EeWdvOLixn7bsw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_jNxawO65EeWdvOLixn7bsw" name="BookingsClosed" source="_PqJqIO65EeWdvOLixn7bsw" target="_cSIeUO65EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="__3OugO65EeWdvOLixn7bsw" name="Total_No_Passengers => Capacity" source="_CRSLkO65EeWdvOLixn7bsw" target="_PqJqIO65EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DFuq0O66EeWdvOLixn7bsw" name="BookFlights()" source="_CRSLkO65EeWdvOLixn7bsw" target="_CRSLkO65EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_hF2PgO66EeWdvOLixn7bsw" name="DeleteFlights()" source="_cSIeUO65EeWdvOLixn7bsw" target="_IUpcMO65EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xdqygO66EeWdvOLixn7bsw" name="SearchFlights()" source="_1p3YEO64EeWdvOLixn7bsw" target="_CRSLkO65EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_yeD4gO66EeWdvOLixn7bsw" source="_eJBj8O64EeWdvOLixn7bsw" target="_1p3YEO64EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_VR7gEO67EeWdvOLixn7bsw" source="_IUpcMO65EeWdvOLixn7bsw" target="_gtqq8O64EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_fkTHwO67EeWdvOLixn7bsw" name="DeleteFlights()" source="_PqJqIO65EeWdvOLixn7bsw" target="_IUpcMO65EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_io_n0O67EeWdvOLixn7bsw" name="DeleteFlights()" source="_CRSLkO65EeWdvOLixn7bsw" target="_IUpcMO65EeWdvOLixn7bsw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_eJBj8O64EeWdvOLixn7bsw" name="Start"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_gtqq8O64EeWdvOLixn7bsw" name="End"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1p3YEO64EeWdvOLixn7bsw" name="Scheduled"/>
+      <subvertex xmi:type="uml:State" xmi:id="_CRSLkO65EeWdvOLixn7bsw" name="AvailableForBooking"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IUpcMO65EeWdvOLixn7bsw" name="Cancelled"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PqJqIO65EeWdvOLixn7bsw" name="BookingFull"/>
+      <subvertex xmi:type="uml:State" xmi:id="_cSIeUO65EeWdvOLixn7bsw" name="Closed"/>
+    </region>
+  </packagedElement>
+</uml:Model>

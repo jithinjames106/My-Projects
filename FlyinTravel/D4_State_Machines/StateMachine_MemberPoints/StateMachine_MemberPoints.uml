@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
+  <uml:Model xmi:id="_jVibkO75EeWxQKb8N31P0g" name="model">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_jcq-UO75EeWxQKb8N31P0g" name="StateMachine_MemberPoints">
+      <region xmi:type="uml:Region" xmi:id="_jduHMO75EeWxQKb8N31P0g" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_bw4h4O76EeWxQKb8N31P0g" source="_XpWr0O76EeWxQKb8N31P0g" target="_DSW9gO76EeWxQKb8N31P0g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_jbs4gO76EeWxQKb8N31P0g" source="_RsV60O76EeWxQKb8N31P0g" target="_DSW9gO76EeWxQKb8N31P0g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_koBhsO76EeWxQKb8N31P0g" source="_6nPngO75EeWxQKb8N31P0g" target="_G9qxoO76EeWxQKb8N31P0g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_lxww8O76EeWxQKb8N31P0g" name="ValidatePoints()" source="_G9qxoO76EeWxQKb8N31P0g" target="_NITu8O76EeWxQKb8N31P0g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_p3WtUO76EeWxQKb8N31P0g" name="PointsAvailable >= PaymentAmount" source="_NITu8O76EeWxQKb8N31P0g" target="_RsV60O76EeWxQKb8N31P0g"/>
+        <transition xmi:type="uml:Transition" xmi:id="_z3nRUO76EeWxQKb8N31P0g" name="PointsAvailable &lt; PaymentAmount" source="_NITu8O76EeWxQKb8N31P0g" target="_XpWr0O76EeWxQKb8N31P0g"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_6nPngO75EeWxQKb8N31P0g" name="Start"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_DSW9gO76EeWxQKb8N31P0g" name="End"/>
+        <subvertex xmi:type="uml:State" xmi:id="_G9qxoO76EeWxQKb8N31P0g" name="Ready"/>
+        <subvertex xmi:type="uml:State" xmi:id="_NITu8O76EeWxQKb8N31P0g" name="PointsValidation"/>
+        <subvertex xmi:type="uml:State" xmi:id="_RsV60O76EeWxQKb8N31P0g" name="PaymentApproved"/>
+        <subvertex xmi:type="uml:State" xmi:id="_XpWr0O76EeWxQKb8N31P0g" name="PaymentRejected"/>
+      </region>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SoxG0O76EeWxQKb8N31P0g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sp9ZoO76EeWxQKb8N31P0g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_S6xc0O76EeWxQKb8N31P0g" language="org.eclipse.papyrus.uml.textedit.state.xtext.UmlState"/>
+</xmi:XMI>

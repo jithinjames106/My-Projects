@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kHvFcO61EeWdvOLixn7bsw" type="PapyrusUMLStateMachineDiagram" name="StateMachine_Credit_Debit_Interac_Payment" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_kHvFce61EeWdvOLixn7bsw" type="2000">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kHvFcu61EeWdvOLixn7bsw" type="2001">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kHvFc-61EeWdvOLixn7bsw" width="770" height="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kHvFdO61EeWdvOLixn7bsw" type="2002">
+      <children xmi:type="notation:Shape" xmi:id="_kHvFde61EeWdvOLixn7bsw" type="3000">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kHvFdu61EeWdvOLixn7bsw" source="RegionAnnotationKey">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kHvFd-61EeWdvOLixn7bsw" key="RegionZoneKey" value=""/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kHvFeO61EeWdvOLixn7bsw" type="3002">
+          <children xmi:type="notation:Shape" xmi:id="_w67EEO61EeWdvOLixn7bsw" type="8000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_w68SMO61EeWdvOLixn7bsw" type="8001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_w685QO61EeWdvOLixn7bsw" x="-42" y="4"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_w6-HYO61EeWdvOLixn7bsw" type="8002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_w6-ucO61EeWdvOLixn7bsw" x="25" y="-10"/>
+            </children>
+            <element xmi:type="uml:Pseudostate" href="StateMachine_Credit_Debit_Payment.uml#_w6xTEO61EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w67EEe61EeWdvOLixn7bsw" x="168" y="39"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_xwk5sO61EeWdvOLixn7bsw" type="5000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_xwlgwO61EeWdvOLixn7bsw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_xwlgwe61EeWdvOLixn7bsw" x="-39" y="4"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_xwmH0O61EeWdvOLixn7bsw" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_xwmH0e61EeWdvOLixn7bsw" x="25" y="-10"/>
+            </children>
+            <element xmi:type="uml:FinalState" href="StateMachine_Credit_Debit_Payment.uml#_xwTz8O61EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xwk5se61EeWdvOLixn7bsw" x="152" y="321"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_CbQuUO62EeWdvOLixn7bsw" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_CbRVYO62EeWdvOLixn7bsw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UEz-8O62EeWdvOLixn7bsw" width="78"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_CbRVYe62EeWdvOLixn7bsw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CbRVYu62EeWdvOLixn7bsw" y="-1" width="78"/>
+            </children>
+            <element xmi:type="uml:State" href="StateMachine_Credit_Debit_Payment.uml#_CbLOwO62EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CbQuUe62EeWdvOLixn7bsw" x="300" y="34" width="78" height="37"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_XXU4kO62EeWdvOLixn7bsw" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_XXU4ku62EeWdvOLixn7bsw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZluCwO62EeWdvOLixn7bsw" width="121"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_XXU4k-62EeWdvOLixn7bsw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XXU4lO62EeWdvOLixn7bsw" y="-1" width="121"/>
+            </children>
+            <element xmi:type="uml:State" href="StateMachine_Credit_Debit_Payment.uml#_XXLuoO62EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XXU4ke62EeWdvOLixn7bsw" x="503" y="33" width="121"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_dJvjIO62EeWdvOLixn7bsw" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_dJvjIu62EeWdvOLixn7bsw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fOkhoO62EeWdvOLixn7bsw" width="118"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_dJvjI-62EeWdvOLixn7bsw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dJvjJO62EeWdvOLixn7bsw" y="-1" width="118"/>
+            </children>
+            <element xmi:type="uml:State" href="StateMachine_Credit_Debit_Payment.uml#_dJmZMO62EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dJvjIe62EeWdvOLixn7bsw" x="515" y="141" width="118"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_kWqc0e62EeWdvOLixn7bsw" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_kWqc0-62EeWdvOLixn7bsw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_piLfcO62EeWdvOLixn7bsw" width="132"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_kWqc1O62EeWdvOLixn7bsw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kWqc1e62EeWdvOLixn7bsw" y="-1" width="132"/>
+            </children>
+            <element xmi:type="uml:State" href="StateMachine_Credit_Debit_Payment.uml#_kWqc0O62EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kWqc0u62EeWdvOLixn7bsw" x="285" y="142" width="132"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_t-B_se62EeWdvOLixn7bsw" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_t-B_s-62EeWdvOLixn7bsw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wRWtMO62EeWdvOLixn7bsw" width="150"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_t-B_tO62EeWdvOLixn7bsw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t-B_te62EeWdvOLixn7bsw" y="-1" width="150"/>
+            </children>
+            <element xmi:type="uml:State" href="StateMachine_Credit_Debit_Payment.uml#_t-B_sO62EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t-B_su62EeWdvOLixn7bsw" x="273" y="249" width="150"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_xyJKge62EeWdvOLixn7bsw" type="6000">
+            <children xmi:type="notation:DecorationNode" xmi:id="_xySUcO62EeWdvOLixn7bsw" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zz_tgO62EeWdvOLixn7bsw" width="142"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_xySUce62EeWdvOLixn7bsw" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xySUcu62EeWdvOLixn7bsw" y="-1" width="142"/>
+            </children>
+            <element xmi:type="uml:State" href="StateMachine_Credit_Debit_Payment.uml#_xyJKgO62EeWdvOLixn7bsw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xyJKgu62EeWdvOLixn7bsw" x="503" y="247" width="142"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kHvFee61EeWdvOLixn7bsw"/>
+        </children>
+        <element xmi:type="uml:Region" href="StateMachine_Credit_Debit_Payment.uml#_kHtQQO61EeWdvOLixn7bsw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kHvFeu61EeWdvOLixn7bsw" width="770" height="373"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kHvFe-61EeWdvOLixn7bsw" y="20" width="770" height="373"/>
+    </children>
+    <element xmi:type="uml:StateMachine" href="StateMachine_Credit_Debit_Payment.uml#_kHGMQO61EeWdvOLixn7bsw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kHvFfO61EeWdvOLixn7bsw" x="30" y="30" width="770" height="393"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_kHvFfe61EeWdvOLixn7bsw" name="diagram_compatibility_version" stringValue="1.0.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_kHvFfu61EeWdvOLixn7bsw"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_kHvFf-61EeWdvOLixn7bsw">
+    <owner xmi:type="uml:Model" href="StateMachine_Credit_Debit_Payment.uml#_kGYakO61EeWdvOLixn7bsw"/>
+  </styles>
+  <element xmi:type="uml:StateMachine" href="StateMachine_Credit_Debit_Payment.uml#_kHGMQO61EeWdvOLixn7bsw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_9KQSQO62EeWdvOLixn7bsw" type="7000" source="_t-B_se62EeWdvOLixn7bsw" target="_xwk5sO61EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9KQSQ-62EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9KQSRO62EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9KQSRe62EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9KQSRu62EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9KQSR-62EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9KQSSO62EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9KQSQe62EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_8rwYYO62EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9KQSQu62EeWdvOLixn7bsw" points="[-6, 6, 178, -42]$[-6, 48, 178, 0]$[-174, 48, 10, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9KZcMO62EeWdvOLixn7bsw" id="(0.4866666666666667,0.85)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AutQcO63EeWdvOLixn7bsw" type="7000" source="_xyJKge62EeWdvOLixn7bsw" target="_xwk5sO61EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Au3BcO63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Au3Bce63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Au3Bcu63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Au3Bc-63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Au3BdO63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Au3Bde63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AutQce63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_AujfcO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AutQcu63EeWdvOLixn7bsw" points="[0, 20, 412, -44]$[0, 65, 412, 1]$[0, 64, 412, 0]$[-402, 64, 10, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EcLAsO63EeWdvOLixn7bsw" type="7000" source="_w67EEO61EeWdvOLixn7bsw" target="_CbQuUO62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EcLAs-63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EcLAtO63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EcLAte63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EcLAtu63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EcLAt-63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EcLAuO63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EcLAse63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_EcB2wO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EcLAsu63EeWdvOLixn7bsw" points="[4, -4, -114, 0]$[114, -5, -4, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EcUxsO63EeWdvOLixn7bsw" id="(0.8,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ecd7oO63EeWdvOLixn7bsw" id="(0.05128205128205128,0.4864864864864865)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HkfcgO63EeWdvOLixn7bsw" type="7000" source="_CbQuUO62EeWdvOLixn7bsw" target="_XXU4kO62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hkfcg-63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HkfchO63EeWdvOLixn7bsw" x="-2" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hkfche63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hkfchu63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hkfch-63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HkfciO63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Hkfcge63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_HkWSkO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hkfcgu63EeWdvOLixn7bsw" points="[6, 0, -130, 0]$[131, -1, -5, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hky-gO63EeWdvOLixn7bsw" id="(0.9230769230769231,0.4864864864864865)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hky-ge63EeWdvOLixn7bsw" id="(0.04132231404958678,0.475)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_OlL4EO63EeWdvOLixn7bsw" type="7000" source="_XXU4kO62EeWdvOLixn7bsw" target="_dJvjIO62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OlL4E-63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OlL4FO63EeWdvOLixn7bsw" x="5" y="57"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OlL4Fe63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OlL4Fu63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OlL4F-63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OlL4GO63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OlL4Ee63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_OlCHEO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OlL4Eu63EeWdvOLixn7bsw" points="[-6, 8, 0, -71]$[-10, 76, -4, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OlezAO63EeWdvOLixn7bsw" id="(0.47107438016528924,0.8)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OlezAe63EeWdvOLixn7bsw" id="(0.3305084745762712,0.075)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UjMHkO63EeWdvOLixn7bsw" type="7000" source="_dJvjIO62EeWdvOLixn7bsw" target="_kWqc0e62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UjMHk-63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UjMHlO63EeWdvOLixn7bsw" x="-5" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UjMHle63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UjMHlu63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UjMHl-63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UjMHmO63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UjMHke63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_UjCWkO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UjMHku63EeWdvOLixn7bsw" points="[-2, 2, 112, 0]$[-100, 2, 14, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UjVRgO63EeWdvOLixn7bsw" id="(0.01694915254237288,0.475)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UjVRge63EeWdvOLixn7bsw" id="(0.8939393939393939,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Zf5SIO63EeWdvOLixn7bsw" type="7000" source="_kWqc0e62EeWdvOLixn7bsw" target="_t-B_se62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Zf5SI-63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zf5SJO63EeWdvOLixn7bsw" x="-5" y="101"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Zf5SJe63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zf5SJu63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Zf5SJ-63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Zf5SKO63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Zf5SIe63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_ZfmXMO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Zf5SIu63EeWdvOLixn7bsw" points="[-2, 8, 9, -69]$[-13, 75, -2, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZgDDIO63EeWdvOLixn7bsw" id="(0.4772727272727273,0.8)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZgDDIe63EeWdvOLixn7bsw" id="(0.4266666666666667,0.05)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mK92kO63EeWdvOLixn7bsw" type="7000" source="_kWqc0e62EeWdvOLixn7bsw" target="_xyJKge62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mK92k-63EeWdvOLixn7bsw" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mK92lO63EeWdvOLixn7bsw" x="188" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mK92le63EeWdvOLixn7bsw" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mK92lu63EeWdvOLixn7bsw"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mK92l-63EeWdvOLixn7bsw" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mK92mO63EeWdvOLixn7bsw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mK92ke63EeWdvOLixn7bsw"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_mK0soO63EeWdvOLixn7bsw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mK92ku63EeWdvOLixn7bsw" points="[0, 8, -203, -65]$[0, 35, -203, -38]$[203, 35, 0, -38]$[203, 73, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mLHnkO63EeWdvOLixn7bsw" id="(0.6212121212121212,0.8)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mLHnke63EeWdvOLixn7bsw" id="(0.47183098591549294,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kj6GYO-tEeW4xcKn2UfFOA" type="7000" source="_dJvjIO62EeWdvOLixn7bsw" target="_XXU4kO62EeWdvOLixn7bsw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kkWyUO-tEeW4xcKn2UfFOA" type="7001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kkWyUe-tEeW4xcKn2UfFOA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kkWyUu-tEeW4xcKn2UfFOA" type="7002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kkWyU--tEeW4xcKn2UfFOA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kkWyVO-tEeW4xcKn2UfFOA" type="7003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kkWyVe-tEeW4xcKn2UfFOA" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kj6GYe-tEeW4xcKn2UfFOA"/>
+    <element xmi:type="uml:Transition" href="StateMachine_Credit_Debit_Payment.uml#_jt5EYO-tEeW4xcKn2UfFOA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kj6GYu-tEeW4xcKn2UfFOA" points="[11, 0, 23, 97]$[42, 0, 54, 97]$[42, -97, 54, 0]$[2, -97, 14, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kkzeQO-tEeW4xcKn2UfFOA" id="(0.9067796610169492,0.425)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kkzeQe-tEeW4xcKn2UfFOA" id="(0.8842975206611571,0.7)"/>
+  </edges>
+</notation:Diagram>

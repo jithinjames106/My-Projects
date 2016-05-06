@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kGYakO61EeWdvOLixn7bsw" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_kHGMQO61EeWdvOLixn7bsw" name="StateMachine_Credit_Debit_Interac_Payment">
+    <region xmi:type="uml:Region" xmi:id="_kHtQQO61EeWdvOLixn7bsw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_8rwYYO62EeWdvOLixn7bsw" source="_t-B_sO62EeWdvOLixn7bsw" target="_xwTz8O61EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AujfcO63EeWdvOLixn7bsw" source="_xyJKgO62EeWdvOLixn7bsw" target="_xwTz8O61EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_EcB2wO63EeWdvOLixn7bsw" source="_w6xTEO61EeWdvOLixn7bsw" target="_CbLOwO62EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HkWSkO63EeWdvOLixn7bsw" name="MakePayment()" source="_CbLOwO62EeWdvOLixn7bsw" target="_XXLuoO62EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_OlCHEO63EeWdvOLixn7bsw" name="CreateTransaction()" source="_XXLuoO62EeWdvOLixn7bsw" target="_dJmZMO62EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_UjCWkO63EeWdvOLixn7bsw" name="ValidateTransaction()" source="_dJmZMO62EeWdvOLixn7bsw" target="_kWqc0O62EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ZfmXMO63EeWdvOLixn7bsw" name="PaymentAmount &lt;= AvailableFunds" source="_kWqc0O62EeWdvOLixn7bsw" target="_t-B_sO62EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mK0soO63EeWdvOLixn7bsw" name="PaymentAmount > AvailableFunds" source="_kWqc0O62EeWdvOLixn7bsw" target="_xyJKgO62EeWdvOLixn7bsw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_jt5EYO-tEeW4xcKn2UfFOA" name="Invalid card details" source="_dJmZMO62EeWdvOLixn7bsw" target="_XXLuoO62EeWdvOLixn7bsw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_w6xTEO61EeWdvOLixn7bsw" name="Start"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_xwTz8O61EeWdvOLixn7bsw" name="End"/>
+      <subvertex xmi:type="uml:State" xmi:id="_CbLOwO62EeWdvOLixn7bsw" name="Ready"/>
+      <subvertex xmi:type="uml:State" xmi:id="_XXLuoO62EeWdvOLixn7bsw" name="ReadCardDetails"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dJmZMO62EeWdvOLixn7bsw" name="CardValidation"/>
+      <subvertex xmi:type="uml:State" xmi:id="_kWqc0O62EeWdvOLixn7bsw" name="PaymentValidation"/>
+      <subvertex xmi:type="uml:State" xmi:id="_t-B_sO62EeWdvOLixn7bsw" name="PaymentApproved"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xyJKgO62EeWdvOLixn7bsw" name="PaymentRejected"/>
+    </region>
+  </packagedElement>
+</uml:Model>
